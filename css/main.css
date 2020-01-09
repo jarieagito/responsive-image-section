@@ -21,10 +21,14 @@ body {
   margin: 0;
 }
 
+section {
+  background-color: #e2e2e2;
+  max-width: 50em;
+  padding: 1rem;
+}
+
 .content {
   display: inline-block;
-  flex-wrap: wrap;
-  align-items: center;
   padding-bottom: 2rem;
 }
 
@@ -36,12 +40,7 @@ body {
 img {
   display: block;
   width: 100%;
-}
-
-section {
-  background-color: #e2e2e2;
-  max-width: 50em;
-  padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 a {
@@ -54,6 +53,19 @@ a {
 
 a:hover {
   background-color: #000;
+}
+
+.text {
+  margin-top: 0;
+  padding-bottom: 1rem;
+}
+
+.percent {
+  margin-bottom: 0;
+}
+
+h1 {
+  padding-top: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -80,6 +92,11 @@ a:hover {
   h1,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
   }
 
 }
