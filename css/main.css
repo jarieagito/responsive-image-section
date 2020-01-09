@@ -23,13 +23,13 @@ body {
 
 section {
   background-color: #e2e2e2;
-  max-width: 50em;
   padding: 1rem;
 }
 
 .content {
   display: inline-block;
   padding-bottom: 2rem;
+  max-width: 50em;
 }
 
 .img-flex {
@@ -97,6 +97,7 @@ h1 {
   section {
     display: flex;
     align-items: center;
+    padding: 2rem;
   }
 
 }
