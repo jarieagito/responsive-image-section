@@ -28,6 +28,7 @@ section {
 
 .content {
   display: inline-block;
+  flex-wrap: wrap;
   padding-bottom: 2rem;
   max-width: 50em;
 }
@@ -120,6 +121,14 @@ h1 {
 
   html {
     font-size: 130%;
+  }
+
+  .img-flex {
+    width: 50%;
+  }
+
+  .content {
+    padding-right: 10rem;
   }
 
 }
